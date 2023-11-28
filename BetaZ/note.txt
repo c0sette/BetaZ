@@ -1,0 +1,12 @@
+﻿//Hàm để lấy HWND từ Text
+
+HWND hWnd = GetForegroundWindow();
+HWND save_fail = GetHWNDFromText(hWnd, "Save At Server Failed");
+std::cout << "HWND save_fail: " << hWnd << endl;
+
+
+
+
+//Mục tiêu
+
+Target 0.0.1 : Ấn X để chụp ảnh bằng D3D11
